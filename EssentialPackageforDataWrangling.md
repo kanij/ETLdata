@@ -1,4 +1,4 @@
-# Essential Packages for data wrangling
+# Data wrangling
 
 *Install package Panda :* 
 
