@@ -26,3 +26,12 @@
   Also to know the column data types :  
   
                 print(df.dtypes)
+
+*Renaming the colume names :*
+              
+               axis 1 or 0. 1 means the cols X-axis , o is Y-axis
+               df.rename({'col1' : 'newcol1', 'col2' : 'newcol2', 'col3' : 'newcol3'}, inplace = True, axis = 1)
+
+               *with index id. Not with name*
+               df. rename (columns= {df. columns[1]:'col1_new_name'}, inplace=True)
+
